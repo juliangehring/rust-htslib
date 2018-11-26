@@ -41,8 +41,8 @@ script:
   - cargo build --target x86_64-unknown-linux-musl --no-default-features
   - cargo test --target x86_64-unknown-linux-musl --no-default-features
 
-after_success:
-  - cargo coveralls
+#after_success:
+#  - cargo coveralls
 
 
 env:
