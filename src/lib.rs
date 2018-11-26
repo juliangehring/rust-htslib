@@ -99,7 +99,7 @@ extern crate serde_json;
 
 extern crate bio_types;
 
-extern crate libz_sys;
+extern crate cloudflare_zlib_sys;
 
 #[cfg(feature = "bzip2")]
 extern crate bzip2_sys;
